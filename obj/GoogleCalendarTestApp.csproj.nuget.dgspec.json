@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Data\\Clients\\VALHAL\\GoogleCalendarTestApp\\GoogleCalendarTestApp\\GoogleCalendarTestApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Data\\Clients\\VALHAL\\GoogleCalendarTestApp\\GoogleCalendarTestApp\\GoogleCalendarTestApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Data\\Clients\\VALHAL\\GoogleCalendarTestApp\\GoogleCalendarTestApp\\GoogleCalendarTestApp.csproj",
+        "projectName": "GoogleCalendarTestApp",
+        "projectPath": "C:\\Data\\Clients\\VALHAL\\GoogleCalendarTestApp\\GoogleCalendarTestApp\\GoogleCalendarTestApp.csproj",
+        "packagesPath": "C:\\Users\\timcr\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\Clients\\VALHAL\\GoogleCalendarTestApp\\GoogleCalendarTestApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\timcr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Google.Apis.Calendar.v3": {
+              "target": "Package",
+              "version": "[1.63.0.3171, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
